@@ -12,7 +12,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <Switch>
-        <Route path="/search/:subreddit">Search Page</Route>
+        <Route path="/search">Search Page</Route>
         <Route path="/">Home Page</Route>
       </Switch>
     </ThemeProvider>

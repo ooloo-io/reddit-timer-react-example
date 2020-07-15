@@ -19,5 +19,5 @@ export const Logo = styled(LogoSVG)`
 export const HeaderLink = styled(Link)`
   margin-left: 26px;
   text-decoration: none;
-  color: ${(props) => props.theme.color.text.midDark};
+  color: ${(props) => props.theme.color.midDark};
 `;

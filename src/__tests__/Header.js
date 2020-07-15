@@ -4,12 +4,12 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../app';
 
-const setup = () => {
+const setup = (initialPath = '/') => {
   // access history as described in the docs
   // https://reactrouter.com/web/guides/testing/checking-location-in-tests
   let history;
   render(
-    <MemoryRouter history={history}>
+    <MemoryRouter history={history} initialEntries={[initialPath]}>
       <App />
       <Route
         path="*"
@@ -23,6 +23,15 @@ const setup = () => {
   return { history };
 };
 
+test('navigates to home page when logo is clicked', () => {
+  setup('/search/javascript');
+
+  const logoLink = screen.getByRole('link', { name: /logo\.svg/i });
+  userEvent.click(logoLink);
+
+  expect(screen.getByText(/home page/i)).toBeInTheDocument();
+});
+
 test('navigates to search page when search link is clicked', () => {
   const { history } = setup();
 
@@ -33,23 +42,12 @@ test('navigates to search page when search link is clicked', () => {
   expect(history.location.pathname).toEqual('/search/javascript');
 });
 
-test('navigates to home page when logo is clicked', () => {
-  const { history } = setup();
-  history.push('/search/javascript');
-
-  const logoLink = screen.getByRole('link', { name: /logo\.svg/i });
-  userEvent.click(logoLink);
-
-  expect(screen.getByText(/home page/i)).toBeInTheDocument();
-});
-
 test.each`
   link              | hash
   ${'About'}        | ${'#about'}
   ${'How it works'} | ${'#how-it-works'}
 `('navigates to "$link" section when "$link" link is clicked', ({ link, hash }) => {
-  const { history } = setup();
-  history.push('/search/javascript');
+  const { history } = setup('/search/javascript');
 
   const aboutLink = screen.getByRole('link', { name: link });
   userEvent.click(aboutLink);
