@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
-import GlobalStyle from './GlobalStyle';
-import theme from './theme';
+import { GlobalStyle, theme } from '../style';
 
 function App() {
   return (
