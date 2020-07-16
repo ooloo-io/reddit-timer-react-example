@@ -29,5 +29,5 @@ export const RightLink = styled(FooterLink)`
 `;
 
 export const Logo = styled(ReactComponent)`
-  margin-top: -2px;
+  margin-top: 7px;
 `;

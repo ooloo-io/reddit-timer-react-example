@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Container, LeftLink, RightLink, Logo,
 } from './Footer.style';
@@ -10,7 +11,9 @@ function Footer() {
         ooloo.io
       </LeftLink>
 
-      <Logo />
+      <Link to="/">
+        <Logo />
+      </Link>
 
       <RightLink to="/terms">
         Terms & Privacy
