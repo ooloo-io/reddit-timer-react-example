@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { ReactComponent } from './logo-small.svg';
+import { ReactComponent as LogoSVG } from './logo-small.svg';
 
 export const Container = styled.footer`
   width: 100%;
@@ -10,7 +10,6 @@ export const Container = styled.footer`
   padding: 0 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 `;
 
 const FooterLink = styled(Link)`
@@ -28,6 +27,6 @@ export const RightLink = styled(FooterLink)`
   text-align: right;
 `;
 
-export const Logo = styled(ReactComponent)`
-  margin-top: 7px;
+export const Logo = styled(LogoSVG)`
+  display: block;
 `;

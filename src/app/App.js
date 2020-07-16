@@ -17,6 +17,7 @@ function App() {
       <ContentContainer>
         <Switch>
           <Route path="/search">Search Page</Route>
+          <Route path="/terms">Terms Page</Route>
           <Route path="/">Home Page</Route>
         </Switch>
       </ContentContainer>

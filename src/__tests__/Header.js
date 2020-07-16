@@ -9,7 +9,7 @@ const setup = (initialPath = '/') => {
   // https://reactrouter.com/web/guides/testing/checking-location-in-tests
   let history;
   render(
-    <MemoryRouter history={history} initialEntries={[initialPath]}>
+    <MemoryRouter initialEntries={[initialPath]}>
       <App />
       <Route
         path="*"
