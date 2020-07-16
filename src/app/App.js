@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 import { GlobalStyle, theme } from '../style';
 import Header from '../common/header';
+import Footer from '../common/footer';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path="/search">Search Page</Route>
         <Route path="/">Home Page</Route>
       </Switch>
+
+      <Footer />
     </ThemeProvider>
   );
 }

@@ -13,6 +13,7 @@ const theme = {
     },
     size: {
       default: '16px',
+      small: '14px',
     },
     lineHeight: {
       default: 1.69,
