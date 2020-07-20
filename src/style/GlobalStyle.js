@@ -23,10 +23,6 @@ const GlobalStyle = createGlobalStyle`
   h1 {
     font-size: ${(props) => props.theme.font.size.large};
   }
-
-  h2 {
-    font-size: ${(props) => props.theme.font.size.h2};
-  }
 `;
 
 export default GlobalStyle;

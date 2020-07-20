@@ -23,7 +23,7 @@ test('navigates to home page when logo is clicked', () => {
   const logoLink = screen.getByRole('link', { name: /logo-small\.svg/i });
   userEvent.click(logoLink);
 
-  expect(screen.getByText(/home page/i)).toBeInTheDocument();
+  expect(screen.getByText(/no reactions to your reddit posts/i)).toBeInTheDocument();
 });
 
 test('navigates to terms page when terms link is clicked', () => {
