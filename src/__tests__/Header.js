@@ -29,7 +29,7 @@ test('navigates to home page when logo is clicked', () => {
   const logoLink = screen.getByRole('link', { name: /logo\.svg/i });
   userEvent.click(logoLink);
 
-  expect(screen.getByText(/home page/i)).toBeInTheDocument();
+  expect(screen.getByText(/no reactions to your reddit posts/i)).toBeInTheDocument();
 });
 
 test('navigates to search page when search link is clicked', () => {
@@ -49,9 +49,9 @@ test.each`
 `('navigates to "$link" section when "$link" link is clicked', ({ link, hash }) => {
   const { history } = setup('/search/javascript');
 
-  const aboutLink = screen.getByRole('link', { name: link });
-  userEvent.click(aboutLink);
+  const hashLink = screen.getByRole('link', { name: link });
+  userEvent.click(hashLink);
 
-  expect(screen.getByText(/home page/i)).toBeInTheDocument();
+  expect(screen.getByText(/no reactions to your reddit posts/i)).toBeInTheDocument();
   expect(history.location.hash).toEqual(hash);
 });
