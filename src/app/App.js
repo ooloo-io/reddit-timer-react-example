@@ -6,6 +6,7 @@ import { GlobalStyle, theme } from '../style';
 import { ContentContainer } from './App.style';
 import Header from '../common/header';
 import Footer from '../common/footer';
+import HomePage from '../page-home';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         <Switch>
           <Route path="/search">Search Page</Route>
           <Route path="/terms">Terms Page</Route>
-          <Route path="/">Home Page</Route>
+          <Route path="/">
+            <HomePage />
+          </Route>
         </Switch>
       </ContentContainer>
 
