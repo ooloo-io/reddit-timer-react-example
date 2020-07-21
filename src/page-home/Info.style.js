@@ -1,10 +1,8 @@
 import styled from 'styled-components';
+import Container from '../common/container';
 
-export const Article = styled.article`
-  width: 100%;
-  max-width: 778px;
+export const Article = styled(Container)`
   margin: 100px auto;
-  padding: 0 20px;
 `;
 
 export const Headline = styled.h2`

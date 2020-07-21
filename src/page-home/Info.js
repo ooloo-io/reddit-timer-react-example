@@ -4,7 +4,7 @@ import { Article, Headline, Content } from './Info.style';
 
 function Info({ id, headline, children }) {
   return (
-    <Article id={id}>
+    <Article as="article" id={id}>
       <Headline>
         {headline}
       </Headline>
