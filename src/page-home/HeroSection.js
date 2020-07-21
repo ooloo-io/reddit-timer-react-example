@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Section, Headline, Subline, Button, DefaultSubreddit, Image,
+  Article, Headline, Subline, Button, DefaultSubreddit, Image,
 } from './HeroSection.style';
 import { defaultSubreddit } from '../config';
 
 function HeroSection() {
   return (
-    <Section>
+    <Article>
       <Headline>
         No reactions to your reddit posts?
       </Headline>
@@ -32,7 +32,7 @@ function HeroSection() {
           alt="Screenshot of heatmap"
         />
       </Link>
-    </Section>
+    </Article>
   );
 }
 
