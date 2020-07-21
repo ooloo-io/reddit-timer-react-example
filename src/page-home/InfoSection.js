@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Info from './Info';
 
 function InfoSection() {
@@ -17,12 +16,12 @@ function InfoSection() {
       <Info headline="About">
         This app was created during a course on
         {' '}
-        <Link to="https://ooloo.io">ooloo.io</Link>
+        <a href="https://ooloo.io">ooloo.io</a>
         {' '}
         with the goal to implement a pixel-perfect real-world application with professional
         workflows and tools like Kanban, ClickUp, Zeplin, GitHub, pull requests and code reviews.
         {' '}
-        <Link to="https://ooloo.io/employer">Click here for more information.</Link>
+        <a href="https://ooloo.io/employers">Click here for more information.</a>
       </Info>
     </section>
   );
