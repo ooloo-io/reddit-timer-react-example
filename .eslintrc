@@ -6,8 +6,8 @@
     "cypress/globals": true
   },
   "parser": "babel-eslint",
-  "extends": ["airbnb"],
-  "plugins": ["cypress"],
+  "extends": ["airbnb", "plugin:styled-components-a11y/recommended"],
+  "plugins": ["styled-components-a11y", "cypress"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
     "cypress/no-assigning-return-values": "error",
