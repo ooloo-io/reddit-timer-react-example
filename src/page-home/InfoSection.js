@@ -1,9 +1,10 @@
 import React from 'react';
+import { Section } from './InfoSection.style';
 import Info from './Info';
 
 function InfoSection() {
   return (
-    <section>
+    <Section>
       <Info id="how-it-works" headline="How it works">
         • We find the 500 top posts from the past year for a subreddit.
         <br />
@@ -23,7 +24,7 @@ function InfoSection() {
         {' '}
         <a href="https://ooloo.io/employers">Click here for more information.</a>
       </Info>
-    </section>
+    </Section>
   );
 }
 
