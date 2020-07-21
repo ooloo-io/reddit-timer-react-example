@@ -5,11 +5,11 @@ describeOnBranches('info-section')('Info Section', () => {
     cy.visit('/');
   });
 
-  it('Contains links to ooloo.io/employers', () => {
+  it('Contains links to ooloo.io and ooloo.io/employers', () => {
     cy.contains(/This app was created during a course/)
       .contains('ooloo.io')
       .and('have.attr', 'href')
-      .and('eq', 'https://ooloo.io/employers');
+      .and('eq', 'https://ooloo.io');
 
     cy.contains(/This app was created during a course/)
       .contains(/Click here for more information/)
@@ -23,7 +23,7 @@ describeOnBranches('info-section')('Info Section', () => {
       .click();
     cy.window().then(($window) => {
       // scroll should be greater than any number
-      expect($window.scrollY).to.be.greaterThan(10);
+      expect($window.scrollY).to.be.greaterThan(100);
     });
   });
 

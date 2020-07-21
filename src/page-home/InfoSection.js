@@ -4,7 +4,7 @@ import Info from './Info';
 function InfoSection() {
   return (
     <section>
-      <Info headline="How it works">
+      <Info id="how-it-works" headline="How it works">
         • We find the 500 top posts from the past year for a subreddit.
         <br />
         • The data is visualized in a heatmap grouped by weekday and hour of the day.
@@ -13,7 +13,7 @@ function InfoSection() {
         <br />
       </Info>
 
-      <Info headline="About">
+      <Info id="about" headline="About">
         This app was created during a course on
         {' '}
         <a href="https://ooloo.io">ooloo.io</a>
