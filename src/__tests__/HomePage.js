@@ -30,7 +30,7 @@ describe('Hero section', () => {
     const ctaButton = screen.getByRole('link', { name: /show me the best time/i });
     userEvent.click(ctaButton);
 
-    expect(screen.getByText(/search page/i)).toBeInTheDocument();
+    expect(screen.getByText(/find the best time for a subreddit/i)).toBeInTheDocument();
     expect(history.location.pathname).toEqual('/search/javascript');
   });
 
@@ -40,7 +40,7 @@ describe('Hero section', () => {
     const heatmapImage = screen.getByAltText(/screenshot of heatmap/i);
     userEvent.click(heatmapImage);
 
-    expect(screen.getByText(/search page/i)).toBeInTheDocument();
+    expect(screen.getByText(/find the best time for a subreddit/i)).toBeInTheDocument();
     expect(history.location.pathname).toEqual('/search/javascript');
   });
 });
