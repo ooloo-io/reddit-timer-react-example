@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Button from '../common/button';
+import UnstyledButton from '../common/button';
 
 export const Section = styled.section`
   display: flex;
@@ -20,7 +20,7 @@ export const Subline = styled.h2`
   letter-spacing: ${(props) => props.theme.font.letterSpacing.default};
 `;
 
-export const CtaButton = styled(Button)`
+export const Button = styled(UnstyledButton)`
   margin-top: 42px;
   text-decoration: none;
 `;

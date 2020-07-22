@@ -27,7 +27,7 @@ const setup = (initialPath = '/') => {
 test('submitting the form updates the URL', () => {
   const { history } = setup('/search/reactjs');
 
-  const searchInput = screen.getByRole('textbox');
+  const searchInput = screen.getByLabelText('r /');
   expect(searchInput.value).toBe('reactjs');
 
   userEvent.clear(searchInput);

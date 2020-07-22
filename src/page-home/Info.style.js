@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Container from '../common/container';
+import UnstyledContainer from '../common/container';
 
-export const Article = styled(Container)`
+export const Container = styled(UnstyledContainer)`
   margin: 100px auto;
 `;
 

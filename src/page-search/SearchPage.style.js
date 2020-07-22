@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Container from '../common/container';
+import UnstyledContainer from '../common/container';
 
-export const Section = styled(Container)`
+export const Container = styled(UnstyledContainer)`
   display: flex;
   flex-direction: column;
   align-items: center;

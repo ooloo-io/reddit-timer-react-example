@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Section, Headline, Subline, CtaButton, DefaultSubreddit, Image,
+  Section, Headline, Subline, Button, DefaultSubreddit, Image,
 } from './HeroSection.style';
 import { defaultSubreddit } from '../config';
 
@@ -16,9 +16,9 @@ function HeroSection() {
         Great timing, great results! Find the best time to post on your subreddit.
       </Subline>
 
-      <CtaButton as={Link} to={`/search/${defaultSubreddit}`}>
+      <Button as={Link} to={`/search/${defaultSubreddit}`}>
         Show me the best time
-      </CtaButton>
+      </Button>
 
       <DefaultSubreddit>
         r/

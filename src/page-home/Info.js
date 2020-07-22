@@ -1,10 +1,10 @@
 import React from 'react';
 import { string, node } from 'prop-types';
-import { Article, Headline, Content } from './Info.style';
+import { Container, Headline, Content } from './Info.style';
 
 function Info({ id, headline, children }) {
   return (
-    <Article as="article" id={id}>
+    <Container as="article" id={id}>
       <Headline>
         {headline}
       </Headline>
@@ -12,7 +12,7 @@ function Info({ id, headline, children }) {
       <Content>
         {children}
       </Content>
-    </Article>
+    </Container>
   );
 }
 

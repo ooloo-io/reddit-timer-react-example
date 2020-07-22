@@ -5,7 +5,6 @@ import { Form, Label, Input } from './SubredditForm.style';
 
 function SubredditForm() {
   const { subreddit: initialSubreddit } = useParams();
-
   const [subreddit, setSubreddit] = useState(initialSubreddit);
   const onChange = (event) => setSubreddit(event.target.value);
 
