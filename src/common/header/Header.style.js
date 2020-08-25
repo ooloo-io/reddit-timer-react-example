@@ -13,7 +13,7 @@ export const Container = styled.header`
 `;
 
 export const Logo = styled(UnstyledLogo)`
-  margin-top: 8px;
+  display: block;
 `;
 
 export const HeaderLink = styled(Link)`
