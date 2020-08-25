@@ -16,7 +16,7 @@ function HeroSection() {
         Great timing, great results! Find the best time to post on your subreddit.
       </Subline>
 
-      <Button to={`/search/${defaultSubreddit}`}>
+      <Button as={Link} to={`/search/${defaultSubreddit}`}>
         Show me the best time
       </Button>
 

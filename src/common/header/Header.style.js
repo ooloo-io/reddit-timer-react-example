@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { ReactComponent as LogoSVG } from './logo.svg';
+import { ReactComponent as UnstyledLogo } from './logo.svg';
 
 export const Container = styled.header`
   width: 100%;
@@ -12,7 +12,7 @@ export const Container = styled.header`
   justify-content: space-between;
 `;
 
-export const Logo = styled(LogoSVG)`
+export const Logo = styled(UnstyledLogo)`
   margin-top: 8px;
 `;
 
