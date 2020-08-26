@@ -25,13 +25,6 @@ function getJSONResponseForRequest(req) {
 }
 
 const handlers = [
-  rest.get('https://www.reddit.com/r/500-posts/top.json', (req, res, ctx) => {
-    return res(
-      ctx.status(200),
-      ctx.json(getJSONResponseForRequest(req)),
-    );
-  }),
-
   rest.get('https://www.reddit.com/r/less-than-500-posts/top.json', (req, res, ctx) => {
     const after = req.url.searchParams.get('after');
 
@@ -61,6 +54,11 @@ const handlers = [
       ctx.json(getJSONResponseForRequest(req)),
     );
   }),
+
+  rest.get('https://www.reddit.com/*', (req, res, ctx) => res(
+    ctx.status(200),
+    ctx.json(getJSONResponseForRequest(req)),
+  )),
 ];
 
 export default handlers;

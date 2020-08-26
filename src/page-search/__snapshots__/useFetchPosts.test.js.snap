@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should load 500 top posts from the Reddit API 1`] = `
+exports[`loads 500 top posts from the Reddit API 1`] = `
 Array [
   "GitHub acquires NPM",
   "I made a discord bot for current coronavirus cases around the world!",

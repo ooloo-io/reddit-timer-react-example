@@ -24,4 +24,5 @@ export const LoadingSpinner = styled(UnstyledSpinner)`
 export const ErrorContainer = styled.div`
   padding: 30px;
   color: red;
+  font-size: ${(props) => props.theme.font.size.small};
 `;
