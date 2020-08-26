@@ -20,3 +20,8 @@ const rotate = keyframes`
 export const LoadingSpinner = styled(UnstyledSpinner)`
   animation: ${rotate} 1.5s linear infinite;
 `;
+
+export const ErrorContainer = styled.div`
+  padding: 30px;
+  color: red;
+`;

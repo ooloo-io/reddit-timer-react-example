@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
 
-export async function fetchPaginatedPosts(previousPosts = [], after = null) {
-  let url = 'https://www.reddit.com/r/javascript/top.json?t=year&limit=100';
+export async function fetchPaginatedPosts(subreddit, previousPosts = [], after = null) {
+  let url = `https://www.reddit.com/r/${subreddit}/top.json?t=year&limit=100`;
   if (after) {
     url += `&after=${after}`;
   }
-
   const response = await fetch(url);
   const { data } = await response.json();
   const allPosts = previousPosts.concat(data.children);
@@ -17,23 +15,29 @@ export async function fetchPaginatedPosts(previousPosts = [], after = null) {
     return allPosts;
   }
 
-  return fetchPaginatedPosts(allPosts, data.after);
+  return fetchPaginatedPosts(subreddit, allPosts, data.after);
 }
 
-function useFetchPosts() {
-  const { query } = useParams();
+function useFetchPosts(subreddit) {
   const [posts, setPosts] = useState([]);
-  const [isLoading, setLoading] = useState(true);
+  const [status, setStatus] = useState('pending');
 
   useEffect(() => {
-    setLoading(true);
-    fetchPaginatedPosts().then((newPosts) => {
-      setPosts(newPosts);
-      setLoading(false);
-    });
-  }, [query]);
+    setStatus('pending');
 
-  return { isLoading, posts };
+    fetchPaginatedPosts(subreddit)
+      .then((newPosts) => {
+        setPosts(newPosts);
+        setStatus('resolved');
+      })
+      .catch(() => setStatus('rejected'));
+  }, [subreddit]);
+
+  return {
+    isLoading: status === 'pending',
+    hasError: status === 'rejected',
+    posts,
+  };
 }
 
 export default useFetchPosts;
