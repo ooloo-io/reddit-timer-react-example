@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { LoadingContainer, LoadingSpinner } from './Heatmap.style';
 
 async function fetchPaginatedPosts(previousPosts = [], after = null) {
   let url = 'https://www.reddit.com/r/javascript/top.json?t=year&limit=100';
@@ -35,7 +36,9 @@ function Heatmap() {
 
   if (loading) {
     return (
-      <div>Loading...</div>
+      <LoadingContainer>
+        <LoadingSpinner />
+      </LoadingContainer>
     );
   }
 
