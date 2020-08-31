@@ -1,7 +1,8 @@
 import styled, { keyframes } from 'styled-components';
+import Container from '../common/container';
 import { ReactComponent as UnstyledSpinner } from './loading-spinner.svg';
 
-export const LoadingContainer = styled.div`
+export const LoadingContainer = styled(Container)`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -21,8 +22,9 @@ export const LoadingSpinner = styled(UnstyledSpinner)`
   animation: ${rotate} 1.5s linear infinite;
 `;
 
-export const ErrorContainer = styled.div`
+export const ErrorContainer = styled(Container)`
   padding: 30px;
+  text-align: center;
   color: red;
   font-size: ${(props) => props.theme.font.size.small};
 `;
