@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { LoadingContainer, LoadingSpinner, ErrorContainer } from './Heatmap.style';
+import { LoadingContainer, LoadingSpinner, ErrorContainer } from './HeatmapSection.style';
 import useFetchPosts from './useFetchPosts';
 
-function Heatmap() {
+function HeatmapSection() {
   const { subreddit } = useParams();
   const { isLoading, hasError, posts } = useFetchPosts(subreddit);
 
@@ -30,4 +30,4 @@ function Heatmap() {
   );
 }
 
-export default Heatmap;
+export default HeatmapSection;
