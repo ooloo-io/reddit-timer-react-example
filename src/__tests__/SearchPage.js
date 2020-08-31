@@ -24,6 +24,20 @@ const setup = (initialPath = '/') => {
   return { history };
 };
 
+test('loads top posts for subreddit in URL', async () => {
+  setup('/search/reactjs');
+
+  screen.getByText('loading-spinner.svg');
+
+  expect(await screen.findByText('500')).toBeInTheDocument();
+  expect(screen.queryByText('loading-spinner.svg')).not.toBeInTheDocument();
+});
+
+test('renders error message', async () => {
+  setup('/search/failing-request');
+  expect(await screen.findByText(/something went wrong/i)).toBeInTheDocument();
+});
+
 test('submitting the form updates the URL', () => {
   const { history } = setup('/search/reactjs');
 

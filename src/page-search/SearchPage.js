@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Headline } from './SearchPage.style';
 import SubredditForm from './SubredditForm';
+import Heatmap from './Heatmap';
 
 function SearchPage() {
   return (
@@ -10,6 +11,7 @@ function SearchPage() {
       </Headline>
 
       <SubredditForm />
+      <Heatmap />
     </Container>
   );
 }
