@@ -1,4 +1,3 @@
-
 import { number, shape, string } from 'prop-types';
 
 const post = shape({
