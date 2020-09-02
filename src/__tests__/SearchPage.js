@@ -2,6 +2,7 @@ import React from 'react';
 import { MemoryRouter, Route } from 'react-router-dom';
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { axe } from 'jest-axe';
 import App from '../app';
 import { defaultSubreddit } from '../config';
 
@@ -9,7 +10,7 @@ const setup = (initialPath) => {
   // access history as described in the docs
   // https://reactrouter.com/web/guides/testing/checking-location-in-tests
   let history;
-  render(
+  const view = render(
     <MemoryRouter initialEntries={[initialPath]}>
       <App />
       <Route
@@ -21,7 +22,7 @@ const setup = (initialPath) => {
       />
     </MemoryRouter>,
   );
-  return { history };
+  return { ...view, history };
 };
 
 describe('subreddit form', () => {
@@ -88,4 +89,11 @@ describe('heatmap', () => {
     expect(await screen.findByText(/something went wrong/i)).toBeInTheDocument();
     expect(screen.queryByText('loading-spinner.svg')).not.toBeInTheDocument();
   });
+});
+
+test('no accessibility violations', async () => {
+  const { container } = setup('/search/reactjs');
+
+  expect(await screen.findByTestId('heatmap')).toBeInTheDocument();
+  expect(await axe(container)).toHaveNoViolations();
 });
