@@ -69,6 +69,9 @@ describe('heatmap', () => {
 
     const numberOfPostsPerCell = cells.map((cell) => cell.innerHTML);
     expect(numberOfPostsPerCell).toMatchSnapshot();
+
+    const timezone = screen.getByText('All times are shown in your timezone:');
+    expect(within(timezone).getByText('Europe/Berlin')).toBeInTheDocument();
   });
 
   test('cell highlights on click', async () => {
