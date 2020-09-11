@@ -10,7 +10,7 @@ import { Container, TimezoneWrapper, Timezone } from './Heatmap.style';
 import HeatmapHeaderRow from './HeatmapHeaderRow';
 import HeatmapRow from './HeatmapRow';
 
-function Heatmap({ postsPerDay, onClickCell, selectedCell }) {
+function Heatmap({ postsPerDay, onClickHour, selectedDayAndHour }) {
   return (
     <>
       <Container data-testid="heatmap">
@@ -22,8 +22,8 @@ function Heatmap({ postsPerDay, onClickCell, selectedCell }) {
             key={day}
             day={day}
             postsPerHour={postsPerHour}
-            onClickHour={onClickCell}
-            selectedHour={selectedCell.day === day ? selectedCell.hour : null}
+            onClickHour={onClickHour}
+            selectedHour={selectedDayAndHour.day === day ? selectedDayAndHour.hour : null}
           />
         ))}
       </Container>
@@ -39,8 +39,8 @@ function Heatmap({ postsPerDay, onClickCell, selectedCell }) {
 
 Heatmap.propTypes = {
   postsPerDay: arrayOf(arrayOf(arrayOf(propTypes.post))).isRequired,
-  onClickCell: func.isRequired,
-  selectedCell: shape({
+  onClickHour: func.isRequired,
+  selectedDayAndHour: shape({
     day: number,
     hour: number,
   }).isRequired,
