@@ -13,34 +13,36 @@ const weekdays = {
   6: 'Saturday',
 };
 
-const HeatmapRow = ({
+function HeatmapRow({
   day,
   postsPerHour,
   onClickHour,
   selectedHour,
-}) => (
-  <Container>
-    <Weekday>{weekdays[day]}</Weekday>
+}) {
+  return (
+    <Container>
+      <Weekday>{weekdays[day]}</Weekday>
 
-    {
-      postsPerHour.map((posts, hour) => {
-        const numPosts = (posts || []).length;
-        return (
-          <Hour
-            // eslint-disable-next-line react/no-array-index-key
-            key={hour}
-            numPosts={numPosts}
-            onClick={() => onClickHour({ day, hour })}
-            selected={hour === selectedHour}
-            type="button"
-          >
-            {numPosts}
-          </Hour>
-        );
-      })
-    }
-  </Container>
-);
+      {
+        postsPerHour.map((posts, hour) => {
+          const numPosts = (posts || []).length;
+          return (
+            <Hour
+              // eslint-disable-next-line react/no-array-index-key
+              key={hour}
+              numPosts={numPosts}
+              onClick={() => onClickHour({ day, hour })}
+              selected={hour === selectedHour}
+              type="button"
+            >
+              {numPosts}
+            </Hour>
+          );
+        })
+      }
+    </Container>
+  );
+}
 
 HeatmapRow.propTypes = {
   day: number.isRequired,

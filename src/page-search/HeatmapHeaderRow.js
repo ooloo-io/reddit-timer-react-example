@@ -16,16 +16,18 @@ const hours = [
   '10:00pm',
 ];
 
-const HeatmapHeaderRow = () => (
-  <Container>
-    {
-      hours.map((hour) => (
-        <Hour key={hour}>
-          {hour}
-        </Hour>
-      ))
-    }
-  </Container>
-);
+function HeatmapHeaderRow() {
+  return (
+    <Container>
+      {
+        hours.map((hour) => (
+          <Hour key={hour}>
+            {hour}
+          </Hour>
+        ))
+      }
+    </Container>
+  );
+}
 
 export default HeatmapHeaderRow;

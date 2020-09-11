@@ -8,8 +8,8 @@ import Heatmap from './Heatmap';
 
 function HeatmapSection() {
   const { subreddit } = useParams();
-  const { isLoading, hasError, postsPerDayAndHour } = useFetchPosts(subreddit);
-  const [selectedDayAndHour, setSelectedDayAndHour] = useState(null);
+  const { isLoading, hasError, postsPerDay } = useFetchPosts(subreddit);
+  const [selectedCell, setSelectedCell] = useState({ day: null, hour: null });
 
   if (isLoading) {
     return (
@@ -30,9 +30,9 @@ function HeatmapSection() {
   return (
     <Container as="section">
       <Heatmap
-        postsPerDayAndHour={postsPerDayAndHour}
-        selectedCell={selectedDayAndHour}
-        onClickCell={setSelectedDayAndHour}
+        postsPerDay={postsPerDay}
+        selectedCell={selectedCell}
+        onClickCell={setSelectedCell}
       />
     </Container>
   );

@@ -4,7 +4,7 @@ const NUM_POSTS_TO_FETCH = 500;
 const MAX_NUM_POSTS_PER_PAGE = 100;
 
 /**
- * The reddit endpoint used to fetch the top posts uses pagination. We can fetch a maximum
+ * The reddit endpoint that we fetch the top posts from uses pagination. We can fetch a maximum
  * number of 100 posts per page. In order to fetch the first 500 posts we use this recursive
  * function. Until the last page or the required number of posts has been reached we continue
  * to fetch more posts.
@@ -38,42 +38,35 @@ export async function fetchPaginatedPosts(subreddit, previousPosts = [], after =
  * Each entry obj[dayOfWeek][hour] contains an array of posts.
  * dayOfWeek is a number between 0 and 6, hour a number between 0 and 23.
  *
- * @param {array} postsList the concatenated list of posts returned from fetchPosts
+ * @param {array} posts the concatenated list of posts returned from fetchPaginatedPosts
  */
-function buildPostsPerDayAndHour(posts) {
-  const postsPerDayAndHour = Array(7)
+function groupPostsPerDayAndHour(posts) {
+  const postsPerDay = Array(7)
     .fill()
     .map(() => Array(24).fill().map(() => []));
 
   posts.forEach((post) => {
-    const createdAtTimestamp = post.data.created_utc * 1000;
-    const createdAtDate = new Date(createdAtTimestamp);
-    const dayOfWeek = createdAtDate.getDay();
-    const hour = createdAtDate.getHours();
+    const createdAt = new Date(post.data.created_utc * 1000);
+    const dayOfWeek = createdAt.getDay();
+    const hour = createdAt.getHours();
 
-    postsPerDayAndHour[dayOfWeek][hour].push({
-      createdAt: createdAtTimestamp,
-      title: post.data.title,
-      score: post.data.score,
-      author: post.data.author,
-      authorId: post.data.author_fullname,
-    });
+    postsPerDay[dayOfWeek][hour].push({});
   });
 
-  return postsPerDayAndHour;
+  return postsPerDay;
 }
 
 function useFetchPosts(subreddit) {
-  const [postsPerDayAndHour, setPostsPerDayAndHour] = useState([]);
+  const [postsPerDay, setPostsPerDay] = useState([]);
   const [status, setStatus] = useState('pending');
 
   useEffect(() => {
     setStatus('pending');
 
     fetchPaginatedPosts(subreddit)
-      .then((posts) => buildPostsPerDayAndHour(posts))
-      .then((newPostsPerDayAndHour) => {
-        setPostsPerDayAndHour(newPostsPerDayAndHour);
+      .then((posts) => groupPostsPerDayAndHour(posts))
+      .then((newpostsPerDay) => {
+        setPostsPerDay(newpostsPerDay);
         setStatus('resolved');
       })
       .catch(() => setStatus('rejected'));
@@ -82,7 +75,7 @@ function useFetchPosts(subreddit) {
   return {
     isLoading: status === 'pending',
     hasError: status === 'rejected',
-    postsPerDayAndHour,
+    postsPerDay,
   };
 }
 

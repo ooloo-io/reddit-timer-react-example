@@ -12,13 +12,13 @@ test('loads 500 top posts from the Reddit API', async () => {
   const { result, waitForNextUpdate } = renderHook(() => useFetchPosts('500-posts'));
 
   expect(result.current.isLoading).toBe(true);
-  expect(result.current.postsPerDayAndHour).toEqual([]);
+  expect(result.current.postsPerDay).toEqual([]);
 
   await waitForNextUpdate();
 
   expect(result.current.isLoading).toBe(false);
-  expect(getNumPosts(result.current.postsPerDayAndHour)).toEqual(500);
-  expect(result.current.postsPerDayAndHour).toMatchSnapshot();
+  expect(getNumPosts(result.current.postsPerDay)).toEqual(500);
+  expect(result.current.postsPerDay).toMatchSnapshot();
 });
 
 test('stops loading when less than 500 posts are available', async () => {
@@ -27,7 +27,7 @@ test('stops loading when less than 500 posts are available', async () => {
   await waitForNextUpdate();
 
   expect(result.current.isLoading).toBe(false);
-  expect(getNumPosts(result.current.postsPerDayAndHour)).toEqual(270);
+  expect(getNumPosts(result.current.postsPerDay)).toEqual(270);
 });
 
 test('returns error when a request fails', async () => {

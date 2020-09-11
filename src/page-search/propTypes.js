@@ -1,12 +1,6 @@
-import { number, shape, string } from 'prop-types';
+import { shape } from 'prop-types';
 
-const post = shape({
-  createdAt: number.isRequired,
-  title: string.isRequired,
-  score: number.isRequired,
-  author: string.isRequired,
-  authorId: string, // undefined if user has been deleted
-});
+const post = shape({});
 
 export default {
   post,
