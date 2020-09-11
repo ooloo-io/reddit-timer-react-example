@@ -1,6 +1,8 @@
-import { shape } from 'prop-types';
+import { shape, string } from 'prop-types';
 
-const post = shape({});
+const post = shape({
+  title: string.isRequired,
+});
 
 export default {
   post,
