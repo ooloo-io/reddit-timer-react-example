@@ -35,6 +35,7 @@ const theme = {
     footerHeight: '100px',
     heatmap: {
       width: HEATMAP_WIDTH,
+      headerHeight: 52,
       dayWidth: HEATMAP_DAY_WIDTH,
       hour: (HEATMAP_WIDTH - HEATMAP_DAY_WIDTH) / 24,
     },

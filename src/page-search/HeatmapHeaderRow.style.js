@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 52px;
+  height: ${(props) => props.theme.size.heatmap.headerHeight}px;
   margin-left: ${(props) => props.theme.size.heatmap.dayWidth}px;
   display: flex;
   align-items: center;
