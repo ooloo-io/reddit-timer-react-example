@@ -14,6 +14,7 @@ const MAX_NUM_POSTS_PER_PAGE = 100;
  *    (only to be used in recursive calls)
  * @param {string} after the id of the last post used for pagination
  *    (only to be used in recursive calls)
+ * @returns {array} list of top 500 posts for subreddit
  */
 export async function fetchPaginatedPosts(subreddit, previousPosts = [], after = null) {
   let url = `https://www.reddit.com/r/${subreddit}/top.json?t=year&limit=${MAX_NUM_POSTS_PER_PAGE}`;
@@ -39,20 +40,19 @@ export async function fetchPaginatedPosts(subreddit, previousPosts = [], after =
  * dayOfWeek is a number between 0 and 6, hour a number between 0 and 23.
  *
  * @param {array} posts the concatenated list of posts returned from fetchPaginatedPosts
+ * @returns {array} nested 2D array that contains the number of posts grouped by week day and hour
  */
 function groupPostsPerDayAndHour(posts) {
   const postsPerDay = Array(7)
     .fill()
-    .map(() => Array(24).fill().map(() => []));
+    .map(() => Array(24).fill().map(() => 0));
 
   posts.forEach((post) => {
     const createdAt = new Date(post.data.created_utc * 1000);
     const dayOfWeek = createdAt.getDay();
     const hour = createdAt.getHours();
 
-    postsPerDay[dayOfWeek][hour].push({
-      title: post.data.title,
-    });
+    postsPerDay[dayOfWeek][hour] += 1;
   });
 
   return postsPerDay;

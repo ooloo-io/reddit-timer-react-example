@@ -1,6 +1,8 @@
 import React from 'react';
 import { MemoryRouter, Route } from 'react-router-dom';
-import { render, screen, within } from '@testing-library/react';
+import {
+  render, screen, within, waitFor,
+} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 import App from '../app';
@@ -26,7 +28,7 @@ const setup = (initialPath) => {
 };
 
 describe('subreddit form', () => {
-  test('submitting the form updates the URL', () => {
+  test('submitting the form updates the URL', async () => {
     const { history } = setup('/search/reactjs');
 
     const searchInput = screen.getByLabelText('r /');
@@ -40,9 +42,11 @@ describe('subreddit form', () => {
     userEvent.click(submitButton);
 
     expect(history.location.pathname).toEqual('/search/vuejs');
+
+    await waitFor(() => expect(screen.queryByText('loading-spinner.svg')).not.toBeInTheDocument());
   });
 
-  test('input value changes to default subreddit when search link in header is clicked', () => {
+  test('input value changes to default subreddit when search link in header is clicked', async () => {
     setup('/search/reactjs');
     const searchInput = screen.getByRole('textbox');
     const header = screen.getByRole('banner');
@@ -51,6 +55,8 @@ describe('subreddit form', () => {
     userEvent.click(searchLink);
 
     expect(searchInput.value).toBe(defaultSubreddit);
+
+    await waitFor(() => expect(screen.queryByText('loading-spinner.svg')).not.toBeInTheDocument());
   });
 });
 
