@@ -50,7 +50,9 @@ function groupPostsPerDayAndHour(posts) {
     const dayOfWeek = createdAt.getDay();
     const hour = createdAt.getHours();
 
-    postsPerDay[dayOfWeek][hour].push({});
+    postsPerDay[dayOfWeek][hour].push({
+      title: post.data.title,
+    });
   });
 
   return postsPerDay;

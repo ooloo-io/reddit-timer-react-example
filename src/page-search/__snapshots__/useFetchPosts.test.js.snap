@@ -4,832 +4,1832 @@ exports[`loads 500 top posts from the Reddit API 1`] = `
 Array [
   Array [
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I made a new way to throw online parties - All in JavaScript",
+      },
+      Object {
+        "title": "Bouncing balls simulation using plain JavaScript (demo link and detailed description in the README)",
+      },
+      Object {
+        "title": "[AskJS] How are you deploying your front-end + node apps?",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "create-react-app breaks due to dependency on one-liner package",
+      },
     ],
     Array [
-      Object {},
-    ],
-    Array [],
-    Array [
-      Object {},
-    ],
-    Array [
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "JS13k Results Are Out! (13k JavaScript Game Jam)",
+      },
     ],
     Array [],
+    Array [
+      Object {
+        "title": "Building your First Chrome Extension : IMDb Lookup",
+      },
+    ],
+    Array [
+      Object {
+        "title": "Goodbye, Clean Code",
+      },
+    ],
+    Array [
+      Object {
+        "title": "CSS Dark Mode tutorial – adding selectable themes to your site or PWA with alternate style",
+      },
+      Object {
+        "title": "A Real-World Comparison of Front-End Frameworks 2020",
+      },
+      Object {
+        "title": "[AskJS] Today I learned of the text/speech apis.",
+      },
+      Object {
+        "title": "I am building a open source mindmap editor",
+      },
+    ],
+    Array [],
     Array [],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I have build and open sourced an automated irrigation system based on Node.js and React",
+      },
+      Object {
+        "title": "Today, the Trident Era Ends",
+      },
+      Object {
+        "title": "Learning functional/declarative programming in JS beyond map, reduce, filter: I have created a github project where I will solve a simple programming problem each week in a declarative way. New solution added: Compare the triplets",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Prettier 2.0 \\"2020\\" is out",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "JavaScript &amp; TensorFlow Lite apps running on a hackable open source smartwatch called Bangle.js",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Favorite JavaScript utilities in a single line of code! No more!",
+      },
+      Object {
+        "title": "Ct.js — Visual game editor for Pixi.js",
+      },
+      Object {
+        "title": "What's new in ECMAScript 2020 | Strict Mode",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "I wrote a Super Mario Compiler in JavaScript",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "JavaScript Christmas is back – a new article every day until Christmas",
+      },
+      Object {
+        "title": "Google removes anti-censorship chrome extension for custom minification techniques in external PAC-script",
+      },
+      Object {
+        "title": "GameDev Challenge in JS/WASM (size limit 64KB + additional constrains)",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Functional Programming basics with JavaScript - my post but would appreciate feedback",
+      },
+      Object {
+        "title": "Demo: Bot hiding from player in 3D space",
+      },
+      Object {
+        "title": "You Don’t Know JS - Book Review",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "CORS : Understanding Cross Origin Resource Sharing",
+      },
+      Object {
+        "title": "Super simple kids game I created with HTML + JS last weekend. It's inspired by Stardew Valley and Monty Python and it's gaming reduced to it's essence (i.e. pushing buttons to gather points 😆)",
+      },
+      Object {
+        "title": "Josh.js - A JavaScript library to animate content on page scroll.",
+      },
+      Object {
+        "title": "Rust for JavaScript Developers - Pattern Matching and Enums",
+      },
+      Object {
+        "title": "Transfer Files from Microsoft OneDrive to Google Cloud Storage",
+      },
+      Object {
+        "title": "Things I learned while implementing Bubble sort animation using CSS and JavaScript",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "5 Front-End Interview Coding Challenges",
+      },
+      Object {
+        "title": "Draw needlessly complex diagrams in the console with cli-diagram",
+      },
+      Object {
+        "title": "Chrome Extension that turns your \\"New Tab\\" into a note taking tool",
+      },
+      Object {
+        "title": "WebGL shooter demo (Mobile compatible)",
+      },
+      Object {
+        "title": "My lightning effect experiment with vanilla JS and canvas. Demo available in the readme file.",
+      },
+      Object {
+        "title": "FAQ: \`private\` vs. \`#\` in TypeScript",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "A full, summarized, interactive WebGL tutorial",
+      },
+      Object {
+        "title": "Here's a GitHub Action that would update README with the recent activity of a user",
+      },
+      Object {
+        "title": "Welcome To OS13k – A Tiny Web Based OS and Game Engine",
+      },
+      Object {
+        "title": "AngularJS Migration War Story",
+      },
+      Object {
+        "title": "I made a website with react.js and firebase as backend that syncs up media in a party. Anyone can create a party an join with friends, add a queue, etc. Github source in comments",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "When I first tried contributing to open source it was very difficult finding relevant issues that I would enjoy contributing to, In the spirit of open-source, I thought I should make this process a bit simpler for other people who might be facing this issue. So I made a website to do this.",
+      },
+      Object {
+        "title": "Common Javascript Promise mistakes every beginner should know and avoid",
+      },
+      Object {
+        "title": "The JavaScript framework for visual programming",
+      },
+      Object {
+        "title": "Stryker — Test your tests with mutation testing in JavaScript",
+      },
+      Object {
+        "title": "Web Cache Deception Named Top Web Hacking Technique of 2019",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "TIL about the command \`npm ci\`. It is similar to \`npm install\`, except it’s meant for automated environments. It is a clean install that can be faster than normal because it skips user-oriented features.",
+      },
+      Object {
+        "title": "I created an open source literate notebook system similar to Jupyter Notebook but for Javascript that runs entirely in the browser",
+      },
+      Object {
+        "title": "The JavaScript Framework That Puts Web Pages on a Diet",
+      },
+      Object {
+        "title": "Screeps - A Game About Programming AIs",
+      },
+      Object {
+        "title": "Quickly check if a website is running vulnerable JS libs straight from the terminal",
+      },
+      Object {
+        "title": "Scaling Web Sockets using Shared Workers",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Math keeps changing",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "jQuery is included on 85% of the top 5M websites",
+      },
+      Object {
+        "title": "Virus spreading simulation tool made with plain/vanilla JavaScript (demo link and detailed description in the README)",
+      },
+      Object {
+        "title": "[AskJS] Am I missing out on anything truly important by avoiding classes entirely?",
+      },
+      Object {
+        "title": "It’s not wrong that \\"🤦🏼‍♂️\\".length == 7",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "Thanks for the feedback so far. Early Access of The Art of Unit Testing, Third Edition (with Examples in JavaScript) is available and I'm excited.",
+      },
+      Object {
+        "title": "JavaScript tree shaking, like a pro",
+      },
     ],
   ],
   Array [
     Array [
-      Object {},
+      Object {
+        "title": "The Must-Read Javascript Book of 2020 is Free",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "DarkMode: A micro library (~360B) for handling dark mode on browsers.",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "How I made a 3D game in only 2KB of JavaScript",
+      },
+      Object {
+        "title": "The new Babel release gives support for ECMAscript 2020 features. We can now use the nullish operator, optional chaining and dynamic module import.",
+      },
+      Object {
+        "title": "RadialMenu.js - A highly customizable radial menu that's very easy to setup.",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "6 things I wished I knew about state management when I started writing React apps",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "Eloquent JavaScript, 3rd Edition. Full text available online.",
+      },
+      Object {
+        "title": "Google feedback on TypeScript 3.5",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Advanced Node.Js: A Hands on Guide to Event Loop, Child Process and Worker Threads in Node.Js",
+      },
+      Object {
+        "title": "Second-guessing the modern web",
+      },
+      Object {
+        "title": "I made a babeljs plugin to automatically write unit tests. I hope many find this useful :D",
+      },
+      Object {
+        "title": "New MDJS Markup Language Adds JavaScript to Markdown for Interactive Documentation",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "VSCode Cheatsheet for JS+React Developers",
+      },
+      Object {
+        "title": "Common tasks of managing DOM with native APIs",
+      },
+      Object {
+        "title": "GraphQL in JavaScript: An Introduction",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Embla Carousel – The most fluid carousel library with unmatched swipe precision",
+      },
+      Object {
+        "title": "CoreJS (used by Babel, Angular) author posted a comment on their repo 16 days ago saying \\"after some days I'll be in prison\\", then stops committing to the repo 13 days ago - claims financial problems",
+      },
+      Object {
+        "title": "Next.js Tips collection",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Generating billions of UUIDs in the browser",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "JavaScript doesn’t need to be replaced",
+      },
+      Object {
+        "title": "I made this JS lib that creates a Word doc with Text/HTML markup, any feedback is appreciated.",
+      },
+      Object {
+        "title": "Using the DOM like a Pro",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Best Practices for Testing in JavaScript &amp; Node.js",
+      },
+      Object {
+        "title": "I make my first Electron application that document your journey as Junior developer in a timelapse video which takes screenshots of my screen, merge them and add a soundtrack",
+      },
+      Object {
+        "title": "The Algebraic Structure of Functions, illustrated using React components",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "The JavaScript Beginner's Handbook (2020 Edition)",
+      },
+      Object {
+        "title": "Modern JavaScript features you might have missed",
+      },
+      Object {
+        "title": "Superfine 8 — Absolute bare minimum view layer for building web interfaces.",
+      },
+      Object {
+        "title": "A tiny progress bar that supports promise (1.2kb)",
+      },
+      Object {
+        "title": "Render React to Embedded LCD",
+      },
+      Object {
+        "title": "How JWT works — the implementation",
+      },
+      Object {
+        "title": "How to run a proxy server inside your browser",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Why coding your own makes you a better developer",
+      },
+      Object {
+        "title": "Uppy open source file uploader gains support for Facebook and OneDrive — in addition to Instagram, Google Drive, Dropbox, public urls and Camera.",
+      },
+      Object {
+        "title": "CyberCode Online - I made a game designed to be played discreetly in office (proof of concept stage, what do you guys think?)",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Popular JavaScript library starts showing ads in its terminal - Standard, a JavaScript style guide, linter, and automatic code fixer, has implemented what appears to be the first advertising system for JavaScript libraries",
+      },
+      Object {
+        "title": "Learning Modern JavaScript with Tetris",
+      },
+      Object {
+        "title": "Build Instagram Using TypeScript, Node, Express and Vue",
+      },
+      Object {
+        "title": "I this madness supposed to be all the things you need to know as a JavaScript Developer today?",
+      },
+      Object {
+        "title": "New GitHub App automates resolving merge conflicts (JavaScript only)",
+      },
+      Object {
+        "title": "react-spring - bring your components to life with simple spring animation primitives",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I made a WebApp to share files instantly, fully anonymously and direct ☕",
+      },
+      Object {
+        "title": "You don't need Moment.js",
+      },
+      Object {
+        "title": "Debounce vs Throttle: Definitive Visual Guide",
+      },
+      Object {
+        "title": "Authentication on the Client Side the Right Way: Cookies vs. Local Storage",
+      },
+      Object {
+        "title": "New \\"Redux Essentials\\" core docs tutorial is LIVE! Teaches how to use Redux the right way, using our latest recommended APIs and practices",
+      },
+      Object {
+        "title": "A write up I did on how Javascript works on your browser",
+      },
+      Object {
+        "title": "parallax-effect - Parallax effect in javascript using webcam face tracking",
+      },
+      Object {
+        "title": "peaks.js - JavaScript UI component for interacting with audio waveforms",
+      },
+      Object {
+        "title": "Writing a Blockchain in Node.js",
+      },
+      Object {
+        "title": "jQuery 3.5.0 Released",
+      },
+      Object {
+        "title": "TypeScript Tutorial for Beginners: The Missing Guide",
+      },
+      Object {
+        "title": "Service Workers Explained - Introduction to the JavaScript API",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Web scraping with Javascript",
+      },
+      Object {
+        "title": "ESLint v7.0.0 released",
+      },
+      Object {
+        "title": "Rough Notation - a small JavaScript library to create and animate annotations on a web page. Elements can be annotated in a number of different styles. Animation duration and delay can be configured, or just turned off",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "GitHub acquires NPM",
+      },
+      Object {
+        "title": "My quarantine project: Coverify - Create your own custom cover art for Spotify playlists.",
+      },
+      Object {
+        "title": "A Long and Winding Road - 140 bytes of JavaScript",
+      },
+      Object {
+        "title": "roughViz.js - Make sketchy, hand-drawn styled SVG charts in the browser.",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Caniuse and MDN compatibility data collaboration",
+      },
+      Object {
+        "title": "JavaScript libraries are almost never updated once installed",
+      },
+      Object {
+        "title": "Case study: Analyzing Notion app performance (or how to make a React app load 30% faster by tuning some configs)",
+      },
+      Object {
+        "title": "is-promise Post Mortem",
+      },
+      Object {
+        "title": "You May Finally Use JSHint for Evil",
+      },
+      Object {
+        "title": "Tetris in the URL",
+      },
+      Object {
+        "title": "Vue.js + IPFS = VIPFS. Create permanent web apps that can never be taken offline in just 5 commands",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Stanford CS253: Web Security",
+      },
+      Object {
+        "title": "GitHub - ryanmcdermott/clean-code-javascript: Clean Code concepts adapted for JavaScript",
+      },
+      Object {
+        "title": "GLTFJSX 1.0 released, a tool that brings 3D content to the web as re-usable React components",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Optional chaining has landed on TypeScript master branch",
+      },
+      Object {
+        "title": "FatFinger - a JavaScript library expanding JS to allow typos and misspellings as valid code. Why bother with clean, well-formatted JS when you can write this and FatFinger will guess at your intentions?",
+      },
+      Object {
+        "title": "[AskJS] Thoughts on package auditability?",
+      },
+      Object {
+        "title": "Liquidfun.js (Wasm/Box2D), Three.js and the water sliding penguins [tutorial]",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "How I became a senior javascript developer with personal projects",
+      },
+      Object {
+        "title": "Deno 1.0 will be released on May 13",
+      },
+      Object {
+        "title": "Visual Studio Code February 2020",
+      },
+      Object {
+        "title": "Dark mode plugin for Next.js with auto mode and without page load glitch",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Deno plans to use JavaScript in internal code instead of TypeScript going forward",
+      },
     ],
   ],
   Array [
     Array [
-      Object {},
+      Object {
+        "title": "[AskJS] I prefer Vanilla.JS to Typescript. Change my mind.",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I made Bitmelo, a free tool that lets you build 8-bit games with Javascript",
+      },
+      Object {
+        "title": "Indeed donates $10,000 to ESLint",
+      },
+      Object {
+        "title": "I got frustrated with recipe websites, so I made one to practice React and extract recipes / ingredients.",
+      },
+      Object {
+        "title": "noiseToScroll - Scroll your page by making noise (whistle, finger snap...)",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "An open sourced, free, fast and beautiful alternative to Postman",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "[AskJS] Can we stop treating ES2015 features as new yet?",
+      },
+      Object {
+        "title": "typical: animated typing in ~400 bytes of JavaScript",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "OAuth 2.0 implementation for various providers in one place.",
+      },
+      Object {
+        "title": "Why npm lockfiles can be a security blindspot in Github PRs for injecting malicious modules",
+      },
+      Object {
+        "title": "Apple AirPods Pro page uses a lot of images so I remade it with much smaller single video",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Announcing Visual Studio Online Public Preview | Visual Studio Blog",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Cypress now supports typescript for test files without using special preprocessors plugins",
+      },
+      Object {
+        "title": "The next release of create-react-app will include experimental support for React Fast Refresh",
+      },
+      Object {
+        "title": "I have made a simple Chrome Extension that prevents you from wasting your time on social media",
+      },
+      Object {
+        "title": "How to Secure your Frontend JavaScript Code Against Vulnerabilities and Attacks",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "The things I found annoy me maintaining an open-source library with 30M monthly npm downloads",
+      },
+      Object {
+        "title": "The Ultimate Guide to handling JWTs on frontend clients (GraphQL)",
+      },
+      Object {
+        "title": "I made a classic Minesweeper clone using Svelte, TypeScript and RxJS!",
+      },
+      Object {
+        "title": "Whole page slider for creating simple swipe-able web pages",
+      },
+      Object {
+        "title": "Should you choose npm or yarn?",
+      },
+      Object {
+        "title": "Don't touch my clipboard",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "How an anti ad-blocker works: Reverse-engineering BlockAdBlock",
+      },
+      Object {
+        "title": "I launched JS TL;DR app - zen mode documentation of the language essentials",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Deno JavaScript Runtime for V8 Written in Rust",
+      },
+      Object {
+        "title": "[AskJS] Why are getters and setters so underused?",
+      },
+      Object {
+        "title": "4 Methods to Search Through Arrays in JavaScript",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "[AskJS] How are people these days (2019) making native mobile apps using JavaScript?",
+      },
+      Object {
+        "title": "Why Svelte is our choice for a large web project in 2020",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "How to *not* ditch your side project ever again",
+      },
+      Object {
+        "title": "Results of the Front-End Tooling Survey 2019",
+      },
+      Object {
+        "title": "Uppy file uploader launches image cropping (beta)",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "A Few Months Ago I Started a Youtube Channel Building Low Level Systems in JavaScript. This Is Episode 1 Of The \\"16-Bit Virtual Machine\\" Series",
+      },
+      Object {
+        "title": "New progressive APIs coming to Chromium browsers",
+      },
+      Object {
+        "title": "Aborting a signal: How to cancel an asynchronous task in JavaScript",
+      },
+      Object {
+        "title": "WTF is a closure?",
+      },
+      Object {
+        "title": "I made a website, which compares the most popular Javascript frameworks in terms of Github development activities and is updated daily",
+      },
+      Object {
+        "title": "A Simple Explanation of Event Delegation in JavaScript",
+      },
+      Object {
+        "title": "Awesome list of finite state machines and statecharts content",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Understand JavaScript’s Generators in 3 minutes",
+      },
+      Object {
+        "title": "Paged.js - a free and open source JavaScript library that paginates content in the browser to create PDF output from any HTML content. This means you can design works for print (eg. books) using HTML and CSS",
+      },
+      Object {
+        "title": "DoppioJVM - a Java Virtual Machine written in 100% JavaScript",
+      },
+      Object {
+        "title": "[Show reddit] Asynchronous JavaScript in four chapters: foundations, Promises, async functions, async iteration",
+      },
+      Object {
+        "title": "A GraphQL-based Web App written with JavaScript, React and Go",
+      },
+      Object {
+        "title": "Debug like a Pro in Chrome Dev Tools — How to use Rendering tab",
+      },
+      Object {
+        "title": "Redux Toolkit v1.3.0 final: New \`createAsyncThunk\` and \`createEntityAdapter\` APIs, Immer 6.0, smaller bundle sizes!",
+      },
+      Object {
+        "title": "Monitoring Node.js: Watch Your Event Loop Lag!",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "🚀 Top-level await makes it possible to use the \`await\` keyword outside of async functions in JavaScript modules!",
+      },
+      Object {
+        "title": "Rhubarb is released: A WebSocket library for multiplayer HTML5 games, relies on binary data and web workers",
+      },
+      Object {
+        "title": "Introducing React View, an Interactive Playground for Your Components",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "A virtual 1991 Macintosh, written in JavaScript",
+      },
+      Object {
+        "title": "Node.js v14 released",
+      },
+      Object {
+        "title": "ES4, The Failed proposal the indirectly led to Node.js, ES6, TypeScript and Deno",
+      },
+      Object {
+        "title": "I recently started to work on a playground for regexes, it is worth going further?",
+      },
+      Object {
+        "title": "Storybook 5.2: Zero-config component docs have landed 🔥",
+      },
+      Object {
+        "title": "A GraphQL-based Web App written with React, Go and MongoDB. Could serve as an example for those who are learning these technologies. The repo includes a detailed description on how to setup dev environmwnt and how to work with the project.",
+      },
+      Object {
+        "title": "5 Mistakes Web Developers Should Avoid When using JWTs for Authentication",
+      },
+      Object {
+        "title": "Using ESLint to improve your app’s performance",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Announcing TypeScript 3.7",
+      },
+      Object {
+        "title": "The Deno Handbook: a concise introduction to Deno",
+      },
+      Object {
+        "title": "Introducing Feathers 4: A framework for real-time apps and REST APIs",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Safari now supports webextensions APIs 😎",
+      },
+      Object {
+        "title": "I made a chess engine using only vanilla JS. Let me know what you think!",
+      },
+      Object {
+        "title": "Kite launches a free ai powered autocomplete for JavaScript",
+      },
+      Object {
+        "title": "Rock paper scissors game all assets have been created by me. Please feel free to fork or feedback",
+      },
+      Object {
+        "title": "Voidcall – the making of 13kb javascript real-time strategy game",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Exploiting Tinder to get paid features for free",
+      },
+      Object {
+        "title": "A tiny isometric city builder in JavaScript",
+      },
+      Object {
+        "title": "Announcing the new TypeScript Website",
+      },
+      Object {
+        "title": "WTF is memoization?",
+      },
+      Object {
+        "title": "Pika – The JavaScript package registry for the modern web",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "All the coolest React features collected in one places and explained. Job interview tips as bonus.",
+      },
+      Object {
+        "title": "New in Firefox 77: DevTool improvements and web platform updates",
+      },
+      Object {
+        "title": "npm is moving back to its developer roots, founder says",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Along with replaceAll, Promise.any, WeakRefs, and Logical Assignment Operators are now at stage 4",
+      },
+      Object {
+        "title": "Why is immutability so important (or needed) in JavaScript?",
+      },
+      Object {
+        "title": "Storybook 5.3 just shipped – MDX support for design systems + integrations with your design tools",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Announcing TypeScript 3.9",
+      },
     ],
   ],
   Array [
     Array [],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "How well do you know JavaScript Promises? Find out in 9 Questions",
+      },
+      Object {
+        "title": "How to move your project to TypeScript - at your own pace",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "[AskJS] Anyone have recommendations for open source JavaScript projects that are well written?",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Modern JavaScript Cheatsheet",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "3 things I've learned in 5 years of JavaScript Software Development",
+      },
+      Object {
+        "title": "\\"Logical assignment\\" operators (||= &amp;&amp;= ??=) proposal reaches stage 3",
+      },
+      Object {
+        "title": "Moveable Editor Tool 0.18 Release! Drag, Resize, Scale, Rotate, Clip, Group, Snap",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "JS13K competition - create a game in 30 days with less than 13kB of JS, CSS, HTML, ETC",
+      },
+      Object {
+        "title": "Interviewing at Facebook — On-Site JavaScript Technical Interview Questions",
+      },
+      Object {
+        "title": "Writing an Emulator in JavaScript (and Interfacing with Multiple UIs)",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "A tiny (~400 B) &amp; modern library for keybindings",
+      },
+      Object {
+        "title": "Fullstack JavaScript Microservice Web App in Minutes",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "Simple 2d car physics with JavaScript!",
+      },
+      Object {
+        "title": "Most common JavaScript vulnerabilities and how to fix them",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Hey r/javascript! We're a small team that just launched a new product called Autocode that lets you automatically generate Node.js API code for connecting apps together. Would love feedback! (x-post r/node)",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "The biggest JS conf in the cloud starts tomorrow. Free tickets are still available.",
+      },
+      Object {
+        "title": "A case for using \`void\` in modern JavaScript",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Modern end to end Testing with Cypress.io",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Bootstrap 5 alpha is officially released removing jQuery and going all in with vanilla JS",
+      },
+      Object {
+        "title": "Research shows that global demand for JavaScript is outpacing student expertise",
+      },
+      Object {
+        "title": "SVG is a telescope into another world",
+      },
+      Object {
+        "title": "Microsoft Paint/Paintbrush in Javascript",
+      },
+      Object {
+        "title": "Create, Read, Update, &amp; Delete Cookies in JavaScript",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Super Expressive - a Zero-dependency JavaScript Library For Building Regular Expressions in (Almost) Natural Language",
+      },
+      Object {
+        "title": "Optional chaining is implemented in V8",
+      },
+      Object {
+        "title": "Tiny (1kb less) but very powerful React Google Map",
+      },
+      Object {
+        "title": "Simplify your JavaScript – Use .some() and .find()",
+      },
+      Object {
+        "title": "How to create snowfall animation using css and JavaScript",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Codedoc: Easily create beautiful and modern docs/wiki for your software projects",
+      },
+      Object {
+        "title": "Inertia.js - The Modern Monolith",
+      },
+      Object {
+        "title": "Any fans of JavaScript on hardware? I wanted to share an IoT device I made that tells me when my next bus will arrive",
+      },
+      Object {
+        "title": "stegcloak: Hide secrets with invisible characters in plain text securely using passwords",
+      },
+      Object {
+        "title": "Debounce Explained – How to Make Your JavaScript Wait For Your User To Finish Typing",
+      },
+      Object {
+        "title": "How many warnings should your JavaScript app have?",
+      },
+      Object {
+        "title": "Making an Audio Waveform Visualizer with Vanilla JavaScript",
+      },
+      Object {
+        "title": "Watcher - all web development blogs in one place",
+      },
+      Object {
+        "title": "Exciting new features in Vue 3",
+      },
+      Object {
+        "title": "The first release of the official Redux+TypeScript template for Create-React-App",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "All front end Interview questions asked during my recent job hunt.",
+      },
+      Object {
+        "title": "AudioMass – a full-featured audio editor in 65kb of vanilla JavaScript",
+      },
+      Object {
+        "title": "I’m making a series about building a full-stack app from scratch in TypeScript using Node.js, Vue.js &amp; PostgreSQL. My goal is to show the full development cycle: connecting front-end with back-end, deploying, etc.",
+      },
+      Object {
+        "title": "Electron joins the OpenJS Foundation",
+      },
+      Object {
+        "title": "Docker Essentials for Javascript and Front End Developers",
+      },
+      Object {
+        "title": "react-ultimate-resume is an open-source customizable software developer resume to highlight your skills and experiences (built with React and JSONResume)",
+      },
+      Object {
+        "title": "I'm making a video series building a 16-bit Virtual Machine. This episode is all about parsing nested expressions in the assembly language, and disambiguating the Order Of Operations",
+      },
+      Object {
+        "title": "We’re killing the mobile web",
+      },
+      Object {
+        "title": "Implementing a Call Stack in a 16-Bit Virtual Machine written in JavaScript",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "V2.0 of my fully online procedural terrain generator, Terrain Builder is out! Built in Javascript and React, it now features Real Time terrain generation on the GPU and a bunch of new features! Check it out if you liked my first post about the 1.0 release. Thanks :)",
+      },
+      Object {
+        "title": "7 Simple but Tricky JavaScript Interview Questions",
+      },
+      Object {
+        "title": "Guess a date's format",
+      },
+      Object {
+        "title": "I just created r/WebExtensions because I couldn't find anywhere specific regarding browser web extension development!",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Get Involved: Open Source Healthcare Software",
+      },
+      Object {
+        "title": "Track Your Smartphone in 2D With JavaScript",
+      },
+      Object {
+        "title": "New Redux docs \\"Style Guide\\" page: recommended patterns and best practices for using Redux",
+      },
+      Object {
+        "title": "How I ported a US counties map made in D3 to the GPU using Three.js [OC]",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "A collection of challenging TypeScript exercises",
+      },
+      Object {
+        "title": "Fixing memory leaks in web applications",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "If cops can watch us, we should watch them. I scraped court records to find dirty cops.",
+      },
+      Object {
+        "title": "I launched Bot Land, a game where you can code bots in JavaScript to battle other players",
+      },
+      Object {
+        "title": "Just JavaScript - an online course that could better prepare you to understand JavaScript by Dan Abramov",
+      },
+      Object {
+        "title": "I made another simple clock to visualize the 1440 precious minutes each of us has in a day",
+      },
+      Object {
+        "title": "Spacekit - a JavaScript library for creating interactive 3D space visualizations, whether of the Earth/moon system, solar system, or beyond",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Interview with a pornhub developer",
+      },
+      Object {
+        "title": "Twilio: Someone broke into our unsecured AWS S3 silo, added 'non-malicious' code to our JavaScript SDK",
+      },
+      Object {
+        "title": "Slack's now using the Electron Sandbox",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "CesiumJS - an open source JavaScript library for creating world-class 3D globes and maps with the best possible performance, precision, visual quality, and ease of use",
+      },
+      Object {
+        "title": "Website that reskins Reddit into Microsoft Teams (Good for work / school)",
+      },
+      Object {
+        "title": "Optional Chaining just achieved Stage 4 at TC39!",
+      },
+      Object {
+        "title": "SweetAlert2 - a beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes (alert, prompt, dialog, toast, side panel, etc.)",
+      },
+      Object {
+        "title": "[AskJS] What coding nightmares have woken you up at night?",
+      },
+      Object {
+        "title": "Visual Studio Code May 2020",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "V8 Release v8.0 with optional chaining, nullish coalescing and 40% less memory use",
+      },
+      Object {
+        "title": "Crank.js - An alternative to React.js with built in support for promises and generator functions for state.",
+      },
+      Object {
+        "title": "Esbuild - An extremely fast JavaScript bundler and minifier",
+      },
+      Object {
+        "title": "Visual Studio Code August 2019",
+      },
+      Object {
+        "title": "Announcing TypeScript 3.6",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "microsoft/playwright: Node library to automate browsers (Puppeteer successor from the same team)",
+      },
+      Object {
+        "title": "DarkModeJS – move your website to the dark side",
+      },
+      Object {
+        "title": "My first game written in javascript",
+      },
+      Object {
+        "title": "I made my website to look like Windows 95 using FOS, a open source framework.",
+      },
     ],
   ],
   Array [
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Deno 1.0 released!",
+      },
+      Object {
+        "title": "Magic - A new passwordless authentication SDK with NodeJS support!",
+      },
+      Object {
+        "title": "What goes into building a drag and drop component in 2019?",
+      },
+      Object {
+        "title": "Records &amp; Tuples proposal has now advanced stage 2!",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Snowpack: Build web applications with less tooling and 10x faster iteration",
+      },
     ],
+    Array [],
     Array [],
     Array [],
     Array [],
-    Array [],
     Array [
-      Object {},
+      Object {
+        "title": "AnimeJS is a great JavaScript animation library, check my tutorial on how to use it",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "[AskJS] I want to create a YouTube channel showing the nitty-gritty of programming and maintaining a web-app for 10+ years (scale: 40k monthly uniques, $20k/monthly). What topics are of interest to r/javascript?",
+      },
+      Object {
+        "title": "Rome: an experimental JavaScript toolchain from Facebook. It includes a compiler, linter, formatter, bundler, testing framework and more...",
+      },
     ],
     Array [
-      Object {},
-    ],
-    Array [],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "Stack Overflow Developer Survey 2020: JS wins with 67.6%",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "GPU.js: GPU Accelerated JavaScript",
+      },
+      Object {
+        "title": "3 Lessons Learnt After Taking 3 Years To Finish a 300 Hour Certification",
+      },
+      Object {
+        "title": "Chrome v83 enables JS module support for SharedWorkers → Starting a new era for multi Browser…",
+      },
+      Object {
+        "title": "The Rise and Rise of JSON",
+      },
+      Object {
+        "title": "The Differing Perspectives on CSS-in-JS",
+      },
+      Object {
+        "title": "LinkedIn Login using Node JS and passport",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Showcase GitHub repositories on your website",
+      },
+    ],
+    Array [
+      Object {
+        "title": "Chrome DevTools now supports style editing for CSS-in-JS frameworks (Chrome 85+)",
+      },
+      Object {
+        "title": "Learn React by building your own version of the framework",
+      },
+      Object {
+        "title": "How To Build Simple Node.js Rest APIs with Express, Sequelize &amp; MySQL",
+      },
+      Object {
+        "title": "Finally V1.0 release of Terrain Builder - my fully browser based Procedural Terrain Generator with Hydraulic Erosion. Written entirely in JavaScript using Three.js. Looking for feedback/feature requests. :)",
+      },
+      Object {
+        "title": "Getting Started with React (2019 Edition)",
+      },
+      Object {
+        "title": "Shared State with React Hooks and Context API",
+      },
+      Object {
+        "title": "Bring some structure to your file and directory names with ls-lint",
+      },
+    ],
+    Array [
+      Object {
+        "title": "Manage HTML DOM with vanilla JavaScript",
+      },
+      Object {
+        "title": "I have been underestimating JS",
+      },
+    ],
+    Array [
+      Object {
+        "title": "Moving beyond console.log() — 8 Console Methods for Debugging",
+      },
+      Object {
+        "title": "Learn D3: a guided intro",
+      },
+      Object {
+        "title": "Cheat sheet for moving from jQuery to vanilla JavaScript",
+      },
+      Object {
+        "title": "10 security tips for frontend developers",
+      },
+      Object {
+        "title": "A database software completely built as JSON files in backend. A powerful, portable and simple database works on top of JSON files.",
+      },
+      Object {
+        "title": "Build production grade API with Prisma and GraphQL",
+      },
+      Object {
+        "title": "GraphQL playground with TypeScript, TypeORM, codegen and many other goodies",
+      },
+    ],
+    Array [
+      Object {
+        "title": "Top-level \\"await\\" enables developers to use the \\"await\\" keyword outside of async functions.",
+      },
+      Object {
+        "title": "Chrome Extension That Automatically Skips YouTube Ads",
+      },
+      Object {
+        "title": "What is the Stack and why is it needed? (16-Bit VM in JavaScript 003)",
+      },
+      Object {
+        "title": "Firefox Replay - time-travel debugging",
+      },
+      Object {
+        "title": "Improve Your JavaScript Knowledge By Reading Source Code — Smashing Magazine",
+      },
+      Object {
+        "title": "What happens when the maintainer of a JS library downloaded 26m times a week goes to prison for killing someone with a motorcycle? Core-js just found out",
+      },
+      Object {
+        "title": "Perf Track - see how popular frameworks are used across the web",
+      },
+    ],
+    Array [
+      Object {
+        "title": "My friend had a problem with scaling up his WebSocket servers. This is what he came up with",
+      },
+      Object {
+        "title": "A lighter V8",
+      },
+      Object {
+        "title": "Custom JavaScript console formatters are being removed from Chrome",
+      },
+      Object {
+        "title": "Should you learn VIM as a JavaScript Developer?",
+      },
+      Object {
+        "title": "MIDI.js - Sequencing in Javascript",
+      },
+      Object {
+        "title": "What's new in ECMAScript 2020 (ES2020)",
+      },
+    ],
+    Array [
+      Object {
+        "title": "I trained a recurrent neural network in JavaScript trained to draw dick doodles",
+      },
+      Object {
+        "title": "Comprehensive guide on the JavaScript tooling ecosystem by MDN.",
+      },
+      Object {
+        "title": "Puppeteer 3.0.0 now supports Firefox out of the box",
+      },
+      Object {
+        "title": "TypeScript Exercises: Now interactive and solutions are included!",
+      },
+      Object {
+        "title": "Chrome 79+ no longer shows preflight CORS requests",
+      },
+      Object {
+        "title": "7 insights from the State of JS 2019",
+      },
+      Object {
+        "title": "The JetBrains WebStorm team is here to answer your questions",
+      },
+      Object {
+        "title": "Vue 3 – A roundup of infos about the new version of Vue.js",
+      },
+    ],
+    Array [
+      Object {
+        "title": "Announcing TypeScript 4.0",
+      },
+      Object {
+        "title": "To celebrate optional chaining making it to stage 4, I created this regex to find places you can use it in your codebase",
+      },
+      Object {
+        "title": "Why you should use generic types in TypeScript, a simple example",
+      },
+    ],
+    Array [
+      Object {
+        "title": "After they gave 100k scholarships to students, Codecademy is now giving away their pro membership to anyone whose work is affected due to the pandemic! Also, I had started learning JS from Codecademy about a month ago when they were giving student scholarship, and it's going pretty good!",
+      },
+      Object {
+        "title": "Webpack: A Gentle Introduction",
+      },
+      Object {
+        "title": "Visual Studio Code October 2019",
+      },
+      Object {
+        "title": "Node.js, Dependency Injection, Layered Architecture, and TDD: A Practical Example Part 1",
+      },
+      Object {
+        "title": "Mastering Promise.allSettled in React",
+      },
+      Object {
+        "title": "I made open source cross platform snippets manager for developers",
+      },
+    ],
+    Array [
+      Object {
+        "title": "Visual Studio Code November 2019",
+      },
+      Object {
+        "title": "Visual Studio Code April 2020",
+      },
+    ],
+    Array [],
+    Array [
+      Object {
+        "title": "What happens when you call console.log…",
+      },
+      Object {
+        "title": "Grid.js - Advanced Table Plugin. Grid.js is a Free and open-source HTML table plugin written in TypeScript. It works with most JavaScript frameworks, including React, Angular.js, Vue and VanillaJs",
+      },
+      Object {
+        "title": "Visual Studio Code January 2020",
+      },
+      Object {
+        "title": "Visual Studio Code June 2020",
+      },
+    ],
+    Array [
+      Object {
+        "title": "Announcing TypeScript 3.8",
+      },
+      Object {
+        "title": "Simpsons: Hit &amp; Run API - This is a library to automate the abandonware game Simpsons: Hit &amp; Run with JavaScript. It uses frida to access internal state, and exposes JavaScript classes that can be used to query and control the game",
+      },
+      Object {
+        "title": "ECMAScript 2020: the final feature set [show reddit]",
+      },
+      Object {
+        "title": "ECMAscript 4: The missing version",
+      },
     ],
   ],
   Array [
     Array [
-      Object {},
+      Object {
+        "title": "Announcing TypeScript 4.0 RC",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [],
-    Array [
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-    ],
-    Array [],
-    Array [
-      Object {},
-    ],
-    Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-    ],
-    Array [
-      Object {},
+      Object {
+        "title": "WebGL Fluid Simulation",
+      },
+      Object {
+        "title": "Announcing core Node.js support for ECMAScript modules",
+      },
+      Object {
+        "title": "I create a website to play Uno with your friends in the browser! Built with javascript and socket.io",
+      },
+      Object {
+        "title": "100 Days of Code for Frontend Development",
+      },
+      Object {
+        "title": "Announcing TypeScript 3.8 RC",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "JavaScript: What’s new in ECMAScript 2019 (ES2019)/ES10?",
+      },
+      Object {
+        "title": "How to build a blog with Gatsby.js in a few easy steps",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "OpenRPC: JSON-RPC now has an Interface Description to rival GraphQL and gRPC",
+      },
+      Object {
+        "title": "Made a URL shortener using MongoDB and Express for fun!",
+      },
+    ],
+    Array [],
+    Array [
+      Object {
+        "title": "Vime - media player library that gives you complete control. The final bundle is Vanilla JS (compiled with Svelte).",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I made a discord bot for current coronavirus cases around the world!",
+      },
+      Object {
+        "title": "The future of web deployment without bundlers or compromises — ES Modules, NodeJS and HTTP/2 Push",
+      },
+      Object {
+        "title": "The Ultimate Guide to Drag and Drop Image Uploading with Pure Javascript",
+      },
+      Object {
+        "title": "0 dependency dev server, supporting live reloading and single page apps.",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "Understading JSON Web Token",
+      },
+    ],
+    Array [],
+    Array [
+      Object {
+        "title": "Really impressive interactive JSON cli tool",
+      },
+      Object {
+        "title": "Dark Reader is now available as a JavaScript library",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "MSW: Award-winning API mocking library that intercepts requests using Service Worker API",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Angular 10 officially released and drops support for IE 9, 10 &amp; Mobile",
+      },
+      Object {
+        "title": "Speed up your development with this new VS Code extension",
+      },
+      Object {
+        "title": "Standalone UUID generator in Javascript (no external dependencies, only 6 lines of code)",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "\\"Under-the-hood of type systems (e.g. TypeScript)\\" - I look to shine a light on some of the fundamentals at work in a type system compiler.",
+      },
+      Object {
+        "title": "8 New Features Shipping With ES2020",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Listen to your web pages render with DOM Mutation Observer and Web Audio API",
+      },
+      Object {
+        "title": "Lazyload images the browser way",
+      },
+      Object {
+        "title": "Using Git to run ESLint on changed files in a feature branch",
+      },
+      Object {
+        "title": "ESLint configuration and best practices",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Retro nostalgia &amp; why my new website looks like Window 9x",
+      },
+      Object {
+        "title": "sort(\\"NODE\\") --&gt; DENO",
+      },
+      Object {
+        "title": "Two exceptional use cases for the spread operator you may not know of",
+      },
+      Object {
+        "title": "OkCupid Presents \\"Glow-Up: Bringing a Teenaged Website into the Modern World of SPA\\"",
+      },
+      Object {
+        "title": "Optional chaining helps to avoid \\"undefined is not a function\\" exceptions",
+      },
+      Object {
+        "title": "Structure and Interpretation of Computer Programs – JavaScript Adaptation",
+      },
+      Object {
+        "title": "WebRTC JavaScript Library for Audio+Video+Screen+Canvas Recording",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Developer Handbook 2020 - was created to cover the most common technical questions and requirements appearing prior to job interviews, during onboarding or personal goals / career planning at our company Apptension.",
+      },
+      Object {
+        "title": "tsParticles - What particles.js could be if it wasn't abandoned years ago",
+      },
+      Object {
+        "title": "15+ Docker best practices for Node.js",
+      },
+      Object {
+        "title": "30 Tips &amp; Tricks with DevTools",
+      },
+      Object {
+        "title": "Announcing Gatsby’s $15M Series A Funding Round",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "NPM Bans Terminal Ads - a reaction to recent 'funding' experiment",
+      },
+      Object {
+        "title": "Infinite Missiles - a Missle Defender game in 13kb of JavaScript",
+      },
+      Object {
+        "title": "I made an opensource bar chart race generator",
+      },
+      Object {
+        "title": "Hi everyone! I've created a small frontend library that lets you submit HTML forms as nested objects. This is my first ever attempt at writing a Javascript library, and I'd appreciate it if you guys gave me your thoughts",
+      },
+      Object {
+        "title": "I made the same web app in Gatsby and Next.js and found Gatsby performed better",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Introducing Yarn 2",
+      },
+      Object {
+        "title": "I've made a simple web app to extract text from images using Tesseract. No image upload needed, the whole thing runs locally on your device.",
+      },
+      Object {
+        "title": "Yet Another Doom Clone (In 13kb of JavaScript)",
+      },
+      Object {
+        "title": "The unseen performance costs of modern CSS-in-JS libraries in React apps",
+      },
+      Object {
+        "title": "uPlot.js v1.0 – A fast, small chart for time series, OHLC and bars",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I launched iHateRegex.io - A Regex cheatsheet for the haters",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "Making Instagram.com faster",
+      },
+      Object {
+        "title": "An Update on MDN Web Docs",
+      },
+    ],
+    Array [
+      Object {
+        "title": "How I made my CV, based on Age of Empires game with Javascript",
+      },
+      Object {
+        "title": "Announcing TypeScript 3.9 Beta",
+      },
+      Object {
+        "title": "Babel 7.9 can generate a significantly smaller preset-env output with the \\"bugfixes\\" option",
+      },
+      Object {
+        "title": "npm, Inc. Announces Leadership Change - CEO Bryan Bogensberger departing; Board of Directors opens a search for candidates",
+      },
+      Object {
+        "title": "DeriveJS is a database framework (an ODM) that lets you work with native Javascript objects, while automatically persisting, updating and syncing them to a (Mongo) DB with no hassle, without the need to explicitly call methods such as .save(). It leverages mongoDB's bulk operations, for performance.",
+      },
+      Object {
+        "title": "JS syntactic quirks, from the perspective on implementing a parser. A really interesting and insightful read.",
+      },
+    ],
+    Array [
+      Object {
+        "title": "[AskJS] Has anyone used GraphQL for a large project and regretted it?",
+      },
+      Object {
+        "title": "Space Invaders in the URL using Emojis and JavaScript",
+      },
+      Object {
+        "title": "[AskJS] What are your must have React tools in 2020?",
+      },
+      Object {
+        "title": "How to successfully manage a large scale JavaScript monorepo aka megarepo",
+      },
+    ],
+    Array [
+      Object {
+        "title": "A continuously-evolving compendium of javascript tips based on common areas of confusion or misunderstanding",
+      },
     ],
   ],
   Array [
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "Puppeteer Recorder - a Chrome extension that records your browser interactions and generates a Puppeteer script",
+      },
+      Object {
+        "title": "Ember.js Octane Edition Is Here",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "50+ JavaScript quiz questions with great explanations to help study up for interviews",
+      },
+      Object {
+        "title": "Guide To Javascript Array Functions: Why you should pick the least powerful tool for the job",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "A discussion about cancellation and promises with some first-hand prospectives, might be interesting to those who track TC39's \\"ECMAScript Cancellation\\" proposal and live in both JavaScript and .NET ecosystems.",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "I never understood JavaScript closures",
+      },
+      Object {
+        "title": "Streams for Reactive Programming",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "Hello, everyone. I have spent sometime learning javascript and I am kind of learning by sharing guy so I have summarised all the new feature of JavaScript since ES6 - ES11. I hope you find it useful.",
+      },
+      Object {
+        "title": "[OC] Interactive Timeline Map Showing Cumulative COVID-19 Cases For U.S Counties. Includes Cases Per Square Mile and Cases Per Capita (100,000)",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "TIL — The power of JSON.stringify replacer parameter",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "TwilioQuest - Discover your power to change the world with code. Test you JavaScript skills with a downloadable game!",
+      },
+      Object {
+        "title": "I made a small 2d raycasting simulation. Any feedback would be great.",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "I made a browser game in JavaScript in which you have to fight an epidemic as a mayor.",
+      },
+      Object {
+        "title": "Vim for JavaScript and React in 2019 | Vim From Scratch",
+      },
     ],
     Array [],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Quick read on how target=_blank is unsafe and the secure alternative",
+      },
+      Object {
+        "title": "I ported the Microsoft Calculator (engine) to web, to run in browsers cross-platform, using WebAssembly. I wrote the UI layer myself using HTML-CSS and vanilla JavaScript while the engine layer is straight away port of original calculator written in cpp.",
+      },
+      Object {
+        "title": "I rewrote my Web Extension (60k users) with clean-architecture, typescript, redux-observable",
+      },
+      Object {
+        "title": "3 most common mistakes when using Promises in JavaScript",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "Mini social network I made as my first project. (MERN stack)",
+      },
+      Object {
+        "title": "Want more from Particles.js? Try tsParticles for improvements and new features",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I've created an educational page to teach students the structure of a URL",
+      },
+      Object {
+        "title": "tsParticles - What particles.js could be if it wasn't abandoned years ago",
+      },
+      Object {
+        "title": "Understanding client side routing by implementing a router in Vanilla JS",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "An in depth explanation of Promise.all and comparison with Promise.allSettled",
+      },
+      Object {
+        "title": "How to speed up Node.js modules installation in CI/CD Pipeline as of 2020",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I created a browser extension that puts masks on faces on the internet for a safer browsing experience in times of the corona virus",
+      },
+      Object {
+        "title": "GraphQL first full-stack starter kit with Node, React. Powered by TypeScript",
+      },
+      Object {
+        "title": "microsoft/fast : The adaptive interface system for modern web experiences.",
+      },
+      Object {
+        "title": "heapify: the fastest priority queue implementation out there",
+      },
+      Object {
+        "title": "JavaScript Interview Questions: Common Gotchas",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Silly idea I had for syntactic sugar for creating relative dates with Javascript - 1..day.ago",
+      },
+      Object {
+        "title": "Tesseract.js: Pure JavaScript OCR for 100 Languages",
+      },
+      Object {
+        "title": "[Showoff Saturday] A JavaScript quiz app that you can use to improve your JS skills and contribute to!",
+      },
+      Object {
+        "title": "Robot, a 1kB library for finite state machines",
+      },
+      Object {
+        "title": "The traversal order of object properties in ES6",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I'm making a series about building a 16-bit Virtual Machine in JavaScript from scratch. This episodes all about taking an assembly AST and generating machine code",
+      },
+      Object {
+        "title": "I fell into a hole setting up fetch mocking in Jest one too many times so I wrote this guide to save you time and frustration",
+      },
+      Object {
+        "title": "Javascript &amp; CSS — Toggle dark/light theme based on your user's preferred scheme",
+      },
+      Object {
+        "title": "Google's Chrome Web Store under fire for shoddy service and cryptic policies",
+      },
+      Object {
+        "title": "Simple and tiny JavaScript library which adds parallax animations on any images",
+      },
+      Object {
+        "title": "Treact - A set of Free UI Templates &amp; Components (52 UI Components, 7 Landing Pages, 8 Inner Pages, Fully Responsive) for creating Beautiful Landing Pages easily using React",
+      },
+      Object {
+        "title": "App like native share for mobile websites with Web Share API",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Are you making your website vulnerable or compromising the performance by adding target=\\"_blank\\"?",
+      },
+      Object {
+        "title": "Regex Tutorial: Beginners Guide to Regular Expressions using JavaScript",
+      },
+      Object {
+        "title": "A Resilience Library for JavaScript -- Retries, Circuit Breakers, Backoffs, + More",
+      },
+      Object {
+        "title": "Multi-threaded Vue.js Server Renderer with Rust and QuickJS",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "[2019 Edition] I created the exact same app in React and Vue. Here are the differences. Now with Hooks",
+      },
+      Object {
+        "title": "Firefox Nightly added support for WebSocket debugging",
+      },
+      Object {
+        "title": "Remote Development With VS Code in Your Browser",
+      },
+      Object {
+        "title": "A JavaScript implementation of the NEAT Algorithm 🧠",
+      },
+      Object {
+        "title": "A (Mostly) Complete Guide to React Rendering Behavior",
+      },
+      Object {
+        "title": "Tired of online Kanban tools, I created this vscode ui to manage project tasks",
+      },
     ],
     Array [
-      Object {},
-      Object {},
+      Object {
+        "title": "A website that lets users upload and draw their own fourier epicycles. A type of drawing which is created by taking the fourier transform of an image. It also gives a brief explanation of the mathematics connecting fourier series and revolving epicycles.",
+      },
+      Object {
+        "title": "node-window-manager: Manage windows in Windows, macOS and Linux",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "Bootstrap 5 is dropping IE 10 &amp; 11 browser support",
+      },
+      Object {
+        "title": "TIL Photoshop supports .js / .jsx scripts helping you automate repetitive tasks",
+      },
+      Object {
+        "title": "ES2020 - Promise.any",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I created an Open Source Google Drive Clone - MyDrive (Node.js, React, Docker, Amazon S3)",
+      },
+      Object {
+        "title": "Built this website with Javascript that lets you spend Jeff Bezos' money on expensive items like sports cars and mansions. (You can end world hunger)",
+      },
+      Object {
+        "title": "Introducing Rome: A linter for JavaScript and TypeScript.",
+      },
     ],
     Array [
-      Object {},
+      Object {
+        "title": "70+ challenging JavaScript quiz questions with explanation",
+      },
     ],
     Array [
-      Object {},
-      Object {},
-      Object {},
-      Object {},
-      Object {},
+      Object {
+        "title": "I wasn't satisfied with existing social share buttons so I made my own — they look nice and don't track you",
+      },
+      Object {
+        "title": "I've made a rotary dial to input numbers, because, why not?",
+      },
+      Object {
+        "title": "Top Free Programming Books for Front-End Developers",
+      },
+      Object {
+        "title": "I built an interactive tool to visualize the spread of COVID-19 in the United States [D3/Vue]",
+      },
+      Object {
+        "title": "Microsoft launches a Node-based browser automation project called Playwright",
+      },
     ],
   ],
 ]
