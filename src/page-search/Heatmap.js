@@ -1,33 +1,48 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { LoadingContainer, LoadingSpinner, ErrorContainer } from './Heatmap.style';
-import useFetchPosts from './useFetchPosts';
+import {
+  arrayOf,
+  func,
+  number,
+  shape,
+} from 'prop-types';
+import { Container, TimezoneWrapper, Timezone } from './Heatmap.style';
+import HeatmapHeaderRow from './HeatmapHeaderRow';
+import HeatmapRow from './HeatmapRow';
 
-function Heatmap() {
-  const { subreddit } = useParams();
-  const { isLoading, hasError, posts } = useFetchPosts(subreddit);
-
-  if (isLoading) {
-    return (
-      <LoadingContainer>
-        <LoadingSpinner />
-      </LoadingContainer>
-    );
-  }
-
-  if (hasError) {
-    return (
-      <ErrorContainer>
-        Something went wrong. Please check the subreddit you entered and try again.
-      </ErrorContainer>
-    );
-  }
-
+function Heatmap({ postsPerDay, onClickHour, selectedDayAndHour }) {
   return (
-    <div>
-      {posts.length}
-    </div>
+    <>
+      <Container data-testid="heatmap">
+        <HeatmapHeaderRow />
+
+        {postsPerDay.map((postsPerHour, day) => (
+          <HeatmapRow
+            // eslint-disable-next-line react/no-array-index-key
+            key={day}
+            day={day}
+            postsPerHour={postsPerHour}
+            onClickHour={onClickHour}
+            selectedHour={selectedDayAndHour.day === day ? selectedDayAndHour.hour : null}
+          />
+        ))}
+      </Container>
+
+      <TimezoneWrapper>
+        All times are shown in your timezone:
+        {' '}
+        <Timezone>{Intl.DateTimeFormat().resolvedOptions().timeZone}</Timezone>
+      </TimezoneWrapper>
+    </>
   );
 }
+
+Heatmap.propTypes = {
+  postsPerDay: arrayOf(arrayOf(number)).isRequired,
+  onClickHour: func.isRequired,
+  selectedDayAndHour: shape({
+    day: number,
+    hour: number,
+  }).isRequired,
+};
 
 export default Heatmap;

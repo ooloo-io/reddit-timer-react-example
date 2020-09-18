@@ -14,7 +14,7 @@ export const Input = styled.input`
   width: 370px;
   height: 36px;
   margin: 0 10px;
-  padding: 0 14px;
+  padding: 0 15px;
   font-size: ${(props) => props.theme.font.size.small};
   color: ${(props) => props.theme.color.dark};
   border: 1px solid ${(props) => props.theme.color.midLight};
