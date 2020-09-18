@@ -5,6 +5,7 @@ import {
   number,
   shape,
 } from 'prop-types';
+import propTypes from './propTypes';
 import { Container, TimezoneWrapper, Timezone } from './Heatmap.style';
 import HeatmapHeaderRow from './HeatmapHeaderRow';
 import HeatmapRow from './HeatmapRow';
@@ -37,7 +38,7 @@ function Heatmap({ postsPerDay, onClickHour, selectedDayAndHour }) {
 }
 
 Heatmap.propTypes = {
-  postsPerDay: arrayOf(arrayOf(number)).isRequired,
+  postsPerDay: arrayOf(arrayOf(arrayOf(propTypes.post))).isRequired,
   onClickHour: func.isRequired,
   selectedDayAndHour: shape({
     day: number,
