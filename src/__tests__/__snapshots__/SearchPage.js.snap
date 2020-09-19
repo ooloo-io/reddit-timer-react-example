@@ -172,3 +172,44 @@ Array [
   "5",
 ]
 `;
+
+exports[`posts table shows posts ordered by time according to cell that is clicked 1`] = `
+Array [
+  Object {
+    "author": "mutantdustbunny",
+    "authorHref": "https://reddit.com/u/mutantdustbunny",
+    "href": "https://reddit.com/r/javascript/comments/fiwfrj/css_dark_mode_tutorial_adding_selectable_themes/",
+    "numComments": "30",
+    "score": "246",
+    "time": "6:19 am",
+    "title": "CSS Dark Mode tutorial – adding selectable themes to your site or PWA with alternate style",
+  },
+  Object {
+    "author": "hotpot_ai",
+    "authorHref": "https://reddit.com/u/hotpot_ai",
+    "href": "https://reddit.com/r/javascript/comments/fmuoc9/a_realworld_comparison_of_frontend_frameworks_2020/",
+    "numComments": "94",
+    "score": "211",
+    "time": "6:24 am",
+    "title": "A Real-World Comparison of Front-End Frameworks 2020",
+  },
+  Object {
+    "author": "Quarxnox",
+    "authorHref": "https://reddit.com/u/Quarxnox",
+    "href": "https://reddit.com/r/javascript/comments/gckiuc/askjs_today_i_learned_of_the_textspeech_apis/",
+    "numComments": "25",
+    "score": "186",
+    "time": "6:25 am",
+    "title": "[AskJS] Today I learned of the text/speech apis.",
+  },
+  Object {
+    "author": "unhandledrejection",
+    "authorHref": "https://reddit.com/u/unhandledrejection",
+    "href": "https://reddit.com/r/javascript/comments/hturg4/i_am_building_a_open_source_mindmap_editor/",
+    "numComments": "25",
+    "score": "151",
+    "time": "6:36 am",
+    "title": "I am building a open source mindmap editor",
+  },
+]
+`;
