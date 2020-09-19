@@ -40,7 +40,7 @@ export async function fetchPaginatedPosts(subreddit, previousPosts = [], after =
  * dayOfWeek is a number between 0 and 6, hour a number between 0 and 23.
  *
  * @param {array} posts the concatenated list of posts returned from fetchPaginatedPosts
- * @returns {array} nested 2D array that contains the number of posts grouped by week day and hour
+ * @returns {array} nested 3D array that contains the posts grouped by week day and hour
  */
 function groupPostsPerDayAndHour(posts) {
   const postsPerDay = Array(7)
