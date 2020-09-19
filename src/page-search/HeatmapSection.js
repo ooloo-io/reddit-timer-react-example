@@ -5,6 +5,7 @@ import {
 } from './HeatmapSection.style';
 import useFetchPosts from './useFetchPosts';
 import Heatmap from './Heatmap';
+import PostsTable from './PostsTable';
 
 function HeatmapSection() {
   const { subreddit } = useParams();
@@ -27,6 +28,9 @@ function HeatmapSection() {
     );
   }
 
+  const { day, hour } = selectedDayAndHour;
+  const selectedPosts = (postsPerDay[day] && postsPerDay[day][hour]) || [];
+
   return (
     <Container as="section">
       <Heatmap
@@ -34,6 +38,14 @@ function HeatmapSection() {
         selectedDayAndHour={selectedDayAndHour}
         onClickHour={setSelectedDayAndHour}
       />
+
+      {
+        selectedPosts.length > 0 && (
+          <PostsTable
+            posts={selectedPosts}
+          />
+        )
+      }
     </Container>
   );
 }

@@ -48,15 +48,16 @@ function groupPostsPerDayAndHour(posts) {
     .map(() => Array(24).fill().map(() => []));
 
   posts.forEach((post) => {
-    const createdAtTimestamp = post.data.created_utc * 1000;
-    const createdAtDate = new Date(createdAtTimestamp);
+    const createdAtDate = new Date(post.data.created_utc * 1000);
     const dayOfWeek = createdAtDate.getDay();
     const hour = createdAtDate.getHours();
 
     postsPerDay[dayOfWeek][hour].push({
-      createdAt: createdAtTimestamp,
+      createdAt: createdAtDate,
       title: post.data.title,
+      url: `https://reddit.com${post.data.permalink}`,
       score: post.data.score,
+      numComments: post.data.num_comments,
       author: post.data.author,
       authorId: post.data.author_fullname,
     });
